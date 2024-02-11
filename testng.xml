@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/MangestOoo/IdeaProjects/Ecommerce">
+        <parameter name="email" value="123456789mahmoud6789@gmail.com"></parameter>
+        <parameter name="password" value="Mahmoud12@"></parameter>
+        <classes>
+
+            <class name="ValidateRegisteration">
+                <methods>
+                    <include name="enterValidData"/>
+                </methods>
+            </class>
+            <class name="ValidateLogin">
+                <methods>
+                    <include name="enterValidData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
